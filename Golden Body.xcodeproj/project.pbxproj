@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57233BB8272822A40042600C /* Golden_BodyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57233BB7272822A40042600C /* Golden_BodyApp.swift */; };
+		57233BBA272822A40042600C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57233BB9272822A40042600C /* ContentView.swift */; };
+		57233BBC272822A50042600C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57233BBB272822A50042600C /* Assets.xcassets */; };
+		57233BBF272822A50042600C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57233BBE272822A50042600C /* Preview Assets.xcassets */; };
+		57233BC9272822A50042600C /* Golden_BodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57233BC8272822A50042600C /* Golden_BodyTests.swift */; };
+		57233BD3272822A50042600C /* Golden_BodyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57233BD2272822A50042600C /* Golden_BodyUITests.swift */; };
+		57233BD5272822A50042600C /* Golden_BodyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57233BD4272822A50042600C /* Golden_BodyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57233BC5272822A50042600C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57233BAC272822A40042600C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57233BB3272822A40042600C;
+			remoteInfo = "Golden Body";
+		};
+		57233BCF272822A50042600C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57233BAC272822A40042600C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57233BB3272822A40042600C;
+			remoteInfo = "Golden Body";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57233BB4272822A40042600C /* Golden Body.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golden Body.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57233BB7272822A40042600C /* Golden_BodyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golden_BodyApp.swift; sourceTree = "<group>"; };
+		57233BB9272822A40042600C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57233BBB272822A50042600C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57233BBE272822A50042600C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57233BC4272822A50042600C /* Golden BodyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golden BodyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57233BC8272822A50042600C /* Golden_BodyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golden_BodyTests.swift; sourceTree = "<group>"; };
+		57233BCE272822A50042600C /* Golden BodyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golden BodyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57233BD2272822A50042600C /* Golden_BodyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golden_BodyUITests.swift; sourceTree = "<group>"; };
+		57233BD4272822A50042600C /* Golden_BodyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golden_BodyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57233BB1272822A40042600C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57233BC1272822A50042600C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57233BCB272822A50042600C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57233BAB272822A40042600C = {
+			isa = PBXGroup;
+			children = (
+				57233BB6272822A40042600C /* Golden Body */,
+				57233BC7272822A50042600C /* Golden BodyTests */,
+				57233BD1272822A50042600C /* Golden BodyUITests */,
+				57233BB5272822A40042600C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57233BB5272822A40042600C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57233BB4272822A40042600C /* Golden Body.app */,
+				57233BC4272822A50042600C /* Golden BodyTests.xctest */,
+				57233BCE272822A50042600C /* Golden BodyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57233BB6272822A40042600C /* Golden Body */ = {
+			isa = PBXGroup;
+			children = (
+				57233BB7272822A40042600C /* Golden_BodyApp.swift */,
+				57233BB9272822A40042600C /* ContentView.swift */,
+				57233BBB272822A50042600C /* Assets.xcassets */,
+				57233BBD272822A50042600C /* Preview Content */,
+			);
+			path = "Golden Body";
+			sourceTree = "<group>";
+		};
+		57233BBD272822A50042600C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				57233BBE272822A50042600C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57233BC7272822A50042600C /* Golden BodyTests */ = {
+			isa = PBXGroup;
+			children = (
+				57233BC8272822A50042600C /* Golden_BodyTests.swift */,
+			);
+			path = "Golden BodyTests";
+			sourceTree = "<group>";
+		};
+		57233BD1272822A50042600C /* Golden BodyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57233BD2272822A50042600C /* Golden_BodyUITests.swift */,
+				57233BD4272822A50042600C /* Golden_BodyUITestsLaunchTests.swift */,
+			);
+			path = "Golden BodyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57233BB3272822A40042600C /* Golden Body */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57233BD8272822A50042600C /* Build configuration list for PBXNativeTarget "Golden Body" */;
+			buildPhases = (
+				57233BB0272822A40042600C /* Sources */,
+				57233BB1272822A40042600C /* Frameworks */,
+				57233BB2272822A40042600C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Golden Body";
+			productName = "Golden Body";
+			productReference = 57233BB4272822A40042600C /* Golden Body.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57233BC3272822A50042600C /* Golden BodyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57233BDB272822A50042600C /* Build configuration list for PBXNativeTarget "Golden BodyTests" */;
+			buildPhases = (
+				57233BC0272822A50042600C /* Sources */,
+				57233BC1272822A50042600C /* Frameworks */,
+				57233BC2272822A50042600C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57233BC6272822A50042600C /* PBXTargetDependency */,
+			);
+			name = "Golden BodyTests";
+			productName = "Golden BodyTests";
+			productReference = 57233BC4272822A50042600C /* Golden BodyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57233BCD272822A50042600C /* Golden BodyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57233BDE272822A50042600C /* Build configuration list for PBXNativeTarget "Golden BodyUITests" */;
+			buildPhases = (
+				57233BCA272822A50042600C /* Sources */,
+				57233BCB272822A50042600C /* Frameworks */,
+				57233BCC272822A50042600C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57233BD0272822A50042600C /* PBXTargetDependency */,
+			);
+			name = "Golden BodyUITests";
+			productName = "Golden BodyUITests";
+			productReference = 57233BCE272822A50042600C /* Golden BodyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57233BAC272822A40042600C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					57233BB3272822A40042600C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					57233BC3272822A50042600C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 57233BB3272822A40042600C;
+					};
+					57233BCD272822A50042600C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 57233BB3272822A40042600C;
+					};
+				};
+			};
+			buildConfigurationList = 57233BAF272822A40042600C /* Build configuration list for PBXProject "Golden Body" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57233BAB272822A40042600C;
+			productRefGroup = 57233BB5272822A40042600C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57233BB3272822A40042600C /* Golden Body */,
+				57233BC3272822A50042600C /* Golden BodyTests */,
+				57233BCD272822A50042600C /* Golden BodyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57233BB2272822A40042600C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57233BBF272822A50042600C /* Preview Assets.xcassets in Resources */,
+				57233BBC272822A50042600C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57233BC2272822A50042600C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57233BCC272822A50042600C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57233BB0272822A40042600C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57233BBA272822A40042600C /* ContentView.swift in Sources */,
+				57233BB8272822A40042600C /* Golden_BodyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57233BC0272822A50042600C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57233BC9272822A50042600C /* Golden_BodyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57233BCA272822A50042600C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57233BD3272822A50042600C /* Golden_BodyUITests.swift in Sources */,
+				57233BD5272822A50042600C /* Golden_BodyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57233BC6272822A50042600C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57233BB3272822A40042600C /* Golden Body */;
+			targetProxy = 57233BC5272822A50042600C /* PBXContainerItemProxy */;
+		};
+		57233BD0272822A50042600C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57233BB3272822A40042600C /* Golden Body */;
+			targetProxy = 57233BCF272822A50042600C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		57233BD6272822A50042600C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57233BD7272822A50042600C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57233BD9272822A50042600C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Golden Body/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "victor-lava.Golden-Body";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57233BDA272822A50042600C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Golden Body/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "victor-lava.Golden-Body";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57233BDC272822A50042600C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "victor-lava.Golden-BodyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Golden Body.app/Golden Body";
+			};
+			name = Debug;
+		};
+		57233BDD272822A50042600C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "victor-lava.Golden-BodyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Golden Body.app/Golden Body";
+			};
+			name = Release;
+		};
+		57233BDF272822A50042600C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "victor-lava.Golden-BodyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Golden Body";
+			};
+			name = Debug;
+		};
+		57233BE0272822A50042600C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "victor-lava.Golden-BodyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Golden Body";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57233BAF272822A40042600C /* Build configuration list for PBXProject "Golden Body" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57233BD6272822A50042600C /* Debug */,
+				57233BD7272822A50042600C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57233BD8272822A50042600C /* Build configuration list for PBXNativeTarget "Golden Body" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57233BD9272822A50042600C /* Debug */,
+				57233BDA272822A50042600C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57233BDB272822A50042600C /* Build configuration list for PBXNativeTarget "Golden BodyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57233BDC272822A50042600C /* Debug */,
+				57233BDD272822A50042600C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57233BDE272822A50042600C /* Build configuration list for PBXNativeTarget "Golden BodyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57233BDF272822A50042600C /* Debug */,
+				57233BE0272822A50042600C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57233BAC272822A40042600C /* Project object */;
+}
