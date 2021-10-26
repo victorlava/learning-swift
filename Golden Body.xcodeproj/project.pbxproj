@@ -14,6 +14,8 @@
 		57233BC9272822A50042600C /* Golden_BodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57233BC8272822A50042600C /* Golden_BodyTests.swift */; };
 		57233BD3272822A50042600C /* Golden_BodyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57233BD2272822A50042600C /* Golden_BodyUITests.swift */; };
 		57233BD5272822A50042600C /* Golden_BodyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57233BD4272822A50042600C /* Golden_BodyUITestsLaunchTests.swift */; };
+		57233C1F27284BDA0042600C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57233C1E27284BDA0042600C /* CircleImage.swift */; };
+		57233C2127284C9B0042600C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57233C2027284C9B0042600C /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		57233BCE272822A50042600C /* Golden BodyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Golden BodyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57233BD2272822A50042600C /* Golden_BodyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golden_BodyUITests.swift; sourceTree = "<group>"; };
 		57233BD4272822A50042600C /* Golden_BodyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golden_BodyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57233C1E27284BDA0042600C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		57233C2027284C9B0042600C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				57233BB7272822A40042600C /* Golden_BodyApp.swift */,
 				57233BB9272822A40042600C /* ContentView.swift */,
 				57233BBB272822A50042600C /* Assets.xcassets */,
+				57233C1E27284BDA0042600C /* CircleImage.swift */,
+				57233C2027284C9B0042600C /* MapView.swift */,
 				57233BBD272822A50042600C /* Preview Content */,
 			);
 			path = "Golden Body";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				57233BBA272822A40042600C /* ContentView.swift in Sources */,
+				57233C2127284C9B0042600C /* MapView.swift in Sources */,
 				57233BB8272822A40042600C /* Golden_BodyApp.swift in Sources */,
+				57233C1F27284BDA0042600C /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +427,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Golden Body/Preview Content\"";
+				DEVELOPMENT_TEAM = MK8SNZ8AL7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -447,6 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Golden Body/Preview Content\"";
+				DEVELOPMENT_TEAM = MK8SNZ8AL7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
